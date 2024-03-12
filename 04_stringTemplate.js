@@ -29,7 +29,7 @@ console.log(`${greetTrim} it's length is : ${greetTrim.length}`);
 console.log(`========== include() ==================`);
 var greet = "My Name is Komal";
 var greetinclude = greet.includes("Komal");
-console.log(`${greet}  : ${greetinclude}`);
+console.log(`${greet} : ${greetinclude}`);
 
 
 console.log(`========== slice ==================`);
