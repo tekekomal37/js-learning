@@ -30,16 +30,7 @@ professor.Age = 35;
 console.log(professor);
 
 console.log("6-Add one new Certificate");
-// var addCertificate = professor.Certificates.splice(2,0,"Oracle Certifi");
-// console.log(addCertificate);
-// professor.Certificates = "Oracle Certified";
-// console.log(Certificates);
 
-// Existing object
-// let professor = {
-    // Certificates: ["First Certificate"] // Assuming certificate property is an array
-//   };
-  
   // Adding a second value to "certificate" property using splice method
   if (!Array.isArray(professor.Certificates)) {
     console.error("Certificate property is not an array.");
@@ -65,9 +56,3 @@ console.log("6-Add one new Certificate");
       console.log(element);
     }
 
-//  const  arrayNums = [2, 4, 1, 7, 9, 8];
-// for (let index = 0; index < arrayNums.length; index++) {
-//     const element = arrayNums[index];
-//     console.log(element);
-// }
-  
